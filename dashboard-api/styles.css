@@ -1,0 +1,84 @@
+/* to make the body fixed as a static page */
+*{
+    box-sizing: border-box; 
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+     color:white;
+     font-size: 18px;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* currency display */
+.curr-weath{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#crypto-top{
+    display: flex;
+    flex-direction: row;
+    color: red;
+}
+
+#prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* time */
+#time {
+    text-align: center;
+    font-size: 41px;
+}
+
+/* temperature display */
+#weather {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-right: 25px;
+}
+
+.weather-city{
+    width: 100%;
+    text-align: right;
+    margin: 0;
+    margin-top: -10px;
+}
+
+.weather-temp{
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: -10px;
+}
+
+/* Quotations */
+
+#motivation{
+    text-align: center;
+}
+
+/* bottom text */
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
